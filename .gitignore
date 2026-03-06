@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# SQLite (regenerate from CSVs)
+*.db
+*.sqlite
+agentready.db
+
+# Node.js
+node_modules/
+dist/
+build/
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*
+!.env.example
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Deployment
+.vercel
+
+# Temp
+*.tmp
+*.swp
+*.log
